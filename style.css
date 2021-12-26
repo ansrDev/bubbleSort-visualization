@@ -1,0 +1,31 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bar-wrapper{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.bar.highlight{
+  background-color: yellow;
+}
+.bar{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 30px;
+  height: 200px;
+  margin-right: 10px;
+  text-align: center;
+  color: wheat;
+  font-size: 10px;
+  font-weight: 900;
+  transition: all .3s linear;
+  background-color: red;
+}
